@@ -1,0 +1,38 @@
+
+.footer {
+    background-color: #234735;
+    color: #F8F7F1;
+    padding: 35px 0 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.footer a {
+    color: #F8F7F1;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #D7E4CF;
+}
+
+.footer hr {
+    border-color: #D7E4CF;
+    opacity: 0.3;
+    margin: 25px 0 15px;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .footer a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}

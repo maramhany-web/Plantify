@@ -1,0 +1,21 @@
+.plantsSection {
+    background-image:
+    linear-gradient(rgba(248, 247, 241, 0.7), rgba(248, 247, 241, 0.7)),
+    url("../../assets/bgCards.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 60px 0;
+}
+
+.plantsSection .card {
+    background-color: #F8F7F1;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.plantsSection .card:hover {
+    transform: translateY(-5px);
+}
